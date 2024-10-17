@@ -1,80 +1,91 @@
- <style>
-        body {
-                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    margin: 0;
-                    padding: 0;
-                    background-color: #e0f7fa; /* Fondo azul claro */
-                    color: #333;
-                }
-            /* Contenedor principal */
-        .container {
-                    width: 80%;
-                    margin: 50px auto;
-                    padding: 20px;
-                    background-color: #ffffff;
-                    border-radius: 10px;
-                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            }
-            /* Encabezado */
-        header {
-                    background: #0288d1; /* Azul vibrante */
-                    color: #fff;
-                    padding: 30px 0;
-                    text-align: center;
-                     border-radius: 10px 10px 0 0;
-                }
-        header h1 {
-                     margin: 0;
-                    font-size: 36px;
-                    letter-spacing: 1px;
-                }
-            /* Perfil y contacto */
-        .profile {
-                    text-align: center;
-                    margin: 20px 0;
-                }
-        .profile h2 {
-                    color: #0277bd; /* Azul medio */
-                }
-            .profile p {
-                    margin: 5px 0;
-                    font-size: 18px;
-                }
-            /* Secciones con separadores */
-        section {
-                    margin: 20px 0;
-                    padding: 20px;
-                    border-left: 5px solid #0288d1; /* Barra lateral azul */
-                    background-color: #e3f2fd; /* Fondo azul muy claro */
-                    border-radius: 5px;
-                }
-        h3 {
-                    color: #01579b; /* Azul oscuro */
-                    margin-bottom: 10px;
-                    font-size: 24px;
-                }
-        ul {
-                    list-style-type: none;
-                    padding: 0;
-                }
-        ul li {
-                     margin: 5px 0;
-                    font-size: 18px;
-                }
-            /* Pie de página */
-        footer {
-                    text-align: center;
-                    padding: 15px;
-                    background: #0277bd;
-                    color: white;
-                    border-radius: 0 0 10px 10px;
-                }
-        footer p {
-                    margin: 0;
-                    font-size: 16px;
-                }
-            /* Sombra y bordes */
-        .container {
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-                }
- </style>
+<style>
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #0288d1; 
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.header-img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+/* Perfil y contacto */
+.profile {
+    text-align: center;
+    margin: 20px 0;
+}
+.profile h2 {
+    color: #0277bd; 
+}
+.profile p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #0288d1; 
+    background-color: #e3f2fd;
+    border-radius: 5px;
+}
+h3 {
+    color: #01579b; 
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0277bd;
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+</style>
