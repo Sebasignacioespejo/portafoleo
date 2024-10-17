@@ -1,61 +1,80 @@
  <style>
-          body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #7e6f6f;
-        }
+        body {
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #e0f7fa; /* Fondo azul claro */
+                    color: #333;
+                }
+            /* Contenedor principal */
         .container {
-            width: 80%;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: rgb(55, 23, 235);
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+                    width: 80%;
+                    margin: 50px auto;
+                    padding: 20px;
+                    background-color: #ffffff;
+                    border-radius: 10px;
+                    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            }
+            /* Encabezado */
         header {
-            background: #333;
-            color: #4c40fa;
-            padding: 30px 0;
-            text-align: center;
-            border-radius: 8px 8px 0 0;
-            border-bottom: 3px solid #0779e4;
-        }
+                    background: #0288d1; /* Azul vibrante */
+                    color: #fff;
+                    padding: 30px 0;
+                    text-align: center;
+                     border-radius: 10px 10px 0 0;
+                }
         header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
+                     margin: 0;
+                    font-size: 36px;
+                    letter-spacing: 1px;
+                }
+            /* Perfil y contacto */
         .profile {
-            text-align: center;
-            margin: 20px 0;
-        }
+                    text-align: center;
+                    margin: 20px 0;
+                }
         .profile h2 {
-            margin: 5px 0;
-        }
+                    color: #0277bd; /* Azul medio */
+                }
+            .profile p {
+                    margin: 5px 0;
+                    font-size: 18px;
+                }
+            /* Secciones con separadores */
         section {
-            margin: 20px 0;
-            padding: 10px 0;
-            border-top: 3px solid #0779e4; /* Separadores azules */
-        }
-        .skills, .experience, .education, .hobbies {
-            padding: 20px;
-        }
+                    margin: 20px 0;
+                    padding: 20px;
+                    border-left: 5px solid #0288d1; /* Barra lateral azul */
+                    background-color: #e3f2fd; /* Fondo azul muy claro */
+                    border-radius: 5px;
+                }
         h3 {
-            color: #333;
-            margin-bottom: 10px;
-        }
+                    color: #01579b; /* Azul oscuro */
+                    margin-bottom: 10px;
+                    font-size: 24px;
+                }
         ul {
-            list-style-type: none;
-            padding: 0;
-        }
+                    list-style-type: none;
+                    padding: 0;
+                }
         ul li {
-            margin: 5px 0;
-        }
+                     margin: 5px 0;
+                    font-size: 18px;
+                }
+            /* Pie de página */
         footer {
-            text-align: center;
-            padding: 10px;
-            background: #333;
-            color: white;
-            border-radius: 0 0 8px 8px;
-        }
-    </style>
+                    text-align: center;
+                    padding: 15px;
+                    background: #0277bd;
+                    color: white;
+                    border-radius: 0 0 10px 10px;
+                }
+        footer p {
+                    margin: 0;
+                    font-size: 16px;
+                }
+            /* Sombra y bordes */
+        .container {
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                }
+ </style>
