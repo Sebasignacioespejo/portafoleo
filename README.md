@@ -1,2 +1,0 @@
-# mi-cv
-curriculum
